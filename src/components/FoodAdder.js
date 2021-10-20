@@ -5,13 +5,13 @@ class FoodAdder extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      FoodList: [],
+      foodList: []
     };
   }
 
   handleSubmit = () => {
-  
-  };
+
+  }
 
   render() {
     return (
