@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <nav className="menu">
-      <NavLink className="menu__item" activeClassName="menu__item_active" exact to="/">Home</NavLink>
-      <NavLink className="menu__item" activeClassName="menu__item_active" to="/tips">Tips</NavLink>
+      <NavLink exact className="menu__item" activeClassName="menu__item_active" to="/">Домой</NavLink>
+      <NavLink className="menu__item" activeClassName="menu__item_active" to="/tips">Советы</NavLink>
     </nav>
   );
 }
